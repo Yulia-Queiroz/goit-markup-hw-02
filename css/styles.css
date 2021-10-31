@@ -1,0 +1,111 @@
+/* цвет фона #E5E5E5 
+вторичный цвет фона  #F5F4FA
+ */
+
+/* цвет текста #212121 
+вторичный цвет текста #757575*/
+
+/* акцент #2196F3 
+лого #000000*/
+
+/* футер контакты rgba(255, 255, 255, 0.6); */
+
+:root {
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --logo-color: #000000;
+  --light-text-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+
+  /* Logo */
+}
+.logo {
+  color: var(--logo-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--main-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts-item {
+  color: var(--secondary-text-color);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--light-text-color);
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--light-text-color);
+}
+
+/* Advantages */
+
+.advantage-descr {
+  color: var(--secondary-text-color);
+}
+
+/* Services */
+
+/* Team */
+
+.team-member-position {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-logo {
+  color: var(--light-text-color);
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+.location {
+  color: var(--light-text-color);
+}
+
+.footer-contacts-link {
+  color: var(--footer-contacts-color);
+}
