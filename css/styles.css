@@ -167,6 +167,11 @@ body {
   font-size: 14px;
 }
 
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
 /* Portfolio */
 
 .filter-button {
