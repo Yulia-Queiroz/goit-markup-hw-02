@@ -44,6 +44,8 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
@@ -59,6 +61,8 @@ body {
 
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -77,6 +81,8 @@ body {
 
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts-item:hover,
@@ -97,6 +103,8 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -105,7 +113,10 @@ body {
 
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
 
   cursor: pointer;
 }
@@ -113,35 +124,55 @@ body {
 /* Advantages */
 
 .advantage-title {
+  font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
 }
 
 .advantage-descr {
   color: var(--secondary-text-color);
-
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Services */
 
 .service-title {
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Team */
 
 .team-title {
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-member-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-member-position {
   color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03;
 }
 
 /* Footer */
@@ -150,20 +181,26 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.footer.logo {
+.footer-section.logo {
   color: var(--light-text-color);
 }
 
 .location {
   color: var(--light-text-color);
-
+  font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: inherit;
 }
 
 .footer-contacts {
   color: var(--footer-contacts-color);
-
+  font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: inherit;
 }
 
 .footer-contacts:hover,
@@ -179,7 +216,10 @@ body {
 
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   cursor: pointer;
 }
@@ -192,13 +232,16 @@ body {
 
 .project-title {
   color: var(--main-text-color);
-
-  font-size: 18;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-descr {
   color: var(--secondary-text-color);
-
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
